@@ -30,7 +30,7 @@ const App = () => {
   }
   
   return <div style={{height:"100vh"}}>
-    <div style={{width:"100%", height:"50px", borderBottom: "solid black 1px"}}>div</div>
+    <div style={{width:"100%", display: "flex", height:"50px", borderBottom: "solid black 1px", alignItems: "center", justifyContent: "center", fontWeight: "bold"}}>Calendar Example</div>
     <ScheduleCalender containerStyle={{height: "calc(100% - 51x)"}} containerClassName={styles.calenderContainer} agenda={agenda} currentDate={new Date(2004, 0, 6)} /></div>
 }
 
