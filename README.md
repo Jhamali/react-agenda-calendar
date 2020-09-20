@@ -1,16 +1,16 @@
-# react-schedule-calendar
+# react-agenda-calendar
 
 > Shows month, week, or day schedule
 
 Made for a project I'm working on, but I thought it could be usefully in other projects, so I decided to make it as a separate project. I plan to add more, but if there are any desired features, feel free to create an issue, or make a merge request.
 
-[![NPM](https://img.shields.io/npm/v/react-schedule-calendar.svg)](https://www.npmjs.com/package/react-schedule-calendar) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-agenda-calendar.svg)](https://www.npmjs.com/package/react-agenda-calendar) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react-schedule-calendar
-yarn add react-schedule-calendar
+npm install --save react-agenda-calendar
+yarn add react-agenda-calendar
 ```
 
 ## Usage
