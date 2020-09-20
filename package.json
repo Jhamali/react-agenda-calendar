@@ -1,6 +1,6 @@
 {
-  "name": "react-schedule-calendar",
-  "version": "1.0.0",
+  "name": "react-agenda-calendar",
+  "version": "1.0.1",
   "description": "Shows month, week, or day schedule",
   "author": "Jhamali",
   "license": "MIT",
