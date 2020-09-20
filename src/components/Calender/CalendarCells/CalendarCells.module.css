@@ -1,0 +1,49 @@
+.rscDaysRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    flex-wrap: wrap;
+    border-top: unset;
+
+  }
+
+  .rscCellText {
+    padding-top: 20px;
+    padding-bottom: 10px;   
+    font-size: 12px;
+    text-align: right;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: black;
+    min-height: 60px;
+  }
+
+  .rscCells{
+    width: calc(100% / 7 - 1.3px);
+    min-width: calc(100% / 7) - 1.3px; 
+    display: table-cell;    
+    border-right: solid 1px #eaf0f4;      
+    border-bottom: solid 1px #eaf0f4;  
+  }
+
+  .rscFirstColumn{
+    border-left: solid 1px #eaf0f4;
+  }
+
+  .rscEvents{
+    display: flex;
+    flex-direction: column;
+    margin-right: -14px;
+    margin-left: -14px;
+    margin-top: 5px;
+  }
+
+  .rscEvent{
+    border-radius: 5px;
+    background-color: #563a59;
+    padding: 5px;
+    font-size: 12px;
+    text-align: left;
+    color: #ffffff;
+  }

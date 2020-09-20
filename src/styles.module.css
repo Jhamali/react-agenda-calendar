@@ -1,9 +1,46 @@
-/* add css module styles here (optional) */
-
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+.rscMainContainer{
+    height: 100vh;
 }
+
+.rscComponentContainer{        
+    display: flex;
+    height: 100%;
+}
+
+.rscCalenderContainer{
+    width: 100%;
+    padding: 0.5em;
+    padding: 2em;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+.rscCreateButton {
+    border-radius: 2.5px;
+    border: solid 1px #707070;
+    background-color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    color: #563a59;
+    max-width: 120px;
+    float: right;
+    margin-bottom: 60px
+  }
+
+  .rscAgendaContainer{
+      width: 0px;
+      transition: width 1s;
+      overflow-x: hidden;
+  }
+
+  .rscAgendaContainer.rscAgendaOpen{
+      width: 500px !important;
+      max-width: 80% !important;
+      overflow-x: unset !important;
+  }

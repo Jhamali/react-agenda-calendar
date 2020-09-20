@@ -8,6 +8,7 @@
 
 ```bash
 npm install --save react-schedule-calendar
+yarn add react-schedule-calendar
 ```
 
 ## Usage

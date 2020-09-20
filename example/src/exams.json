@@ -1,0 +1,569 @@
+[
+  {
+    "id": 1,
+    "course": 1,
+    "examTitle": "Mid Terms CAL21",
+    "startDate": "2020-07-19T13:00:00-05:00",
+    "endDate": "2020-07-18T19:00:00-05:00",
+    "duaration": "75",
+    "questions": [
+      {
+        "id": 3,
+        "questionText": "Explain life.",
+        "questionType": "Long Answer",
+        "options": [],
+        "correctAnswer": ""
+      },
+      {
+        "id": 1,
+        "questionText": "What is this?",
+        "questionType": "Multiple Choice",
+        "options": ["tree", "roof", "floor", "knife"],
+        "correctAnswer": "floor"
+      },
+      {
+        "id": 2,
+        "questionText": "7>6",
+        "questionType": "Multiple Choice",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "course": 1,
+    "examTitle": "Final CAL21",
+    "startDate": "2020-11-06T13:09:57-05:00",
+    "endDate": "2020-12-25T13:10:07-05:00",
+    "duaration": "120",
+    "questions": []
+  },
+  {
+    "id": 3,
+    "course": 2,
+    "examTitle": "ABCD Intro Mid Semeester",
+    "startDate": "2020-07-26T07:28:17-05:00",
+    "endDate": "2020-08-31T12:28:33-05:00",
+    "duaration": "75",
+    "questions": [
+      {
+        "id": 4,
+        "questionText": "What is this",
+        "questionType": "Multiple Choice",
+        "options": ["a", "b", "c", "d"],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 5,
+        "questionText": "What's your name?",
+        "questionType": "Long Answer",
+        "options": [],
+        "correctAnswer": ""
+      },
+      {
+        "id": 6,
+        "questionText": "Am I real?",
+        "questionType": "Multiple Choice",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": 7,
+        "questionText": "jiojiojio",
+        "questionType": "Multiple Choice",
+        "options": ["wwdd, wsokde, skwsk, sokws"],
+        "correctAnswer": "wsokde"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "course": 1,
+    "examTitle": "Final",
+    "startDate": "2020-07-29T19:35:00-05:00",
+    "endDate": "2020-07-30T19:35:00-05:00",
+    "duaration": "120",
+    "questions": []
+  },
+  {
+    "id": 5,
+    "course": 1,
+    "examTitle": "Finals for Course Math",
+    "startDate": "2020-10-11T10:00:00-05:00",
+    "endDate": "2020-11-11T10:00:00-05:00",
+    "duaration": "120",
+    "questions": []
+  },
+  {
+    "id": 6,
+    "course": 1,
+    "examTitle": "Finals for English 2",
+    "startDate": "2020-10-11T10:00:00-05:00",
+    "endDate": "2020-11-11T10:00:00-05:00",
+    "duaration": "120",
+    "questions": [
+      {
+        "id": 8,
+        "questionText": "What is this? ->>",
+        "questionType": "Multiple Choice",
+        "options": ["Arrow", "Triangle", "Square", "Circle"],
+        "correctAnswer": "Arrow"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "course": 1,
+    "examTitle": "Finals of My Life",
+    "startDate": "2020-10-11T10:00:00-05:00",
+    "endDate": "2020-11-11T10:10:00-05:00",
+    "duaration": "120",
+    "questions": [
+      {
+        "id": 9,
+        "questionText": "What is this? -->>",
+        "questionType": "Multiple Choice",
+        "options": ["Arrow", "Triangle", "Circle", "Square"],
+        "correctAnswer": "Arrow"
+      },
+      {
+        "id": 10,
+        "questionText": "Explain your life and struggles",
+        "questionType": "Long Answer",
+        "options": [],
+        "correctAnswer": ""
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "course": 1,
+    "examTitle": "Meh",
+    "startDate": "2020-07-30T10:00:00-05:00",
+    "endDate": "2020-10-10T10:00:00-05:00",
+    "duaration": "120",
+    "questions": [
+      {
+        "id": 11,
+        "questionText": "Test",
+        "questionType": "Multiple Choice",
+        "options": ["1", "2", "3", "4"],
+        "correctAnswer": "2"
+      },
+      {
+        "id": 12,
+        "questionText": "Essay",
+        "questionType": "Long Answer",
+        "options": [],
+        "correctAnswer": ""
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "course": 1,
+    "examTitle": "Final",
+    "startDate": "2020-08-06T00:00:00-05:00",
+    "endDate": "2020-08-08T23:59:59-05:00",
+    "duaration": "120",
+    "questions": [
+      {
+        "id": 13,
+        "questionText": "Question 3",
+        "questionType": "Multiple Choice",
+        "options": ["a", "s", "d", "f"],
+        "correctAnswer": "f"
+      },
+      {
+        "id": 14,
+        "questionText": "Yaq",
+        "questionType": "Multiple Choice",
+        "options": ["q", "w", "e", "r"],
+        "correctAnswer": "w"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "course": 1,
+    "examTitle": "CS400",
+    "startDate": "2020-10-12T10:00:00-05:00",
+    "endDate": "2020-10-14T10:00:00-05:00",
+    "duaration": "120",
+    "questions": [
+      {
+        "id": 15,
+        "questionText": "joijiojio",
+        "questionType": "Multiple Choice",
+        "options": ["ijioj", "iojoij", "oijioji", "ojiojio"],
+        "correctAnswer": "iojoij"
+      },
+      {
+        "id": 16,
+        "questionText": "oijoijioj",
+        "questionType": "Multiple Choice",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": 17,
+        "questionText": "njljkj",
+        "questionType": "Long Answer",
+        "options": [],
+        "correctAnswer": ""
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "course": 1,
+    "examTitle": "CS400",
+    "startDate": "2020-10-12T10:00:00-05:00",
+    "endDate": "2020-10-14T10:00:00-05:00",
+    "duaration": "120",
+    "questions": [
+      {
+        "id": 18,
+        "questionText": "ioijioji",
+        "questionType": "Long Answer",
+        "options": [],
+        "correctAnswer": ""
+      },
+      {
+        "id": 19,
+        "questionText": "nlkmlkmkl",
+        "questionType": "Multiple Choice",
+        "options": ["jjio", "jiojiojio", "jiojioj", "iojioj"],
+        "correctAnswer": "jiojiojio"
+      },
+      {
+        "id": 20,
+        "questionText": "oijoijioj",
+        "questionType": "Multiple Choice",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "course": 1,
+    "examTitle": "Final",
+    "startDate": "2020-08-06T00:00:00-05:00",
+    "endDate": "2020-08-08T23:59:59-05:00",
+    "duaration": "120",
+    "questions": [
+      {
+        "id": 24,
+        "questionText": "Question 3",
+        "questionType": "Multiple Choice",
+        "options": ["a", "s", "d", "f"],
+        "correctAnswer": "f"
+      },
+      {
+        "id": 25,
+        "questionText": "Yaq",
+        "questionType": "Multiple Choice",
+        "options": ["q", "w", "e", "r"],
+        "correctAnswer": "w"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "course": 1,
+    "examTitle": "It was me, Dio!",
+    "startDate": "2020-09-12T10:00:00-05:00",
+    "endDate": "2020-10-14T10:00:00-05:00",
+    "duaration": "120",
+    "questions": [
+      {
+        "id": 21,
+        "questionText": "jiojiojioj",
+        "questionType": "Multiple Choice",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": 22,
+        "questionText": "oijoijioj",
+        "questionType": "Long Answer",
+        "options": [],
+        "correctAnswer": ""
+      },
+      {
+        "id": 23,
+        "questionText": "jiojiojioj",
+        "questionType": "Multiple Choice",
+        "options": ["oijoi", "iojiojio", "jiojoimokm", "omoimim"],
+        "correctAnswer": "oijoi"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "course": 1,
+    "examTitle": "Testing MCQ",
+    "startDate": "2020-08-21T00:00:00-05:00",
+    "endDate": "2020-09-21T23:59:00-05:00",
+    "duaration": "120",
+    "questions": [
+      {
+        "id": 26,
+        "questionText": "one",
+        "questionType": "Multiple Choice",
+        "options": ["4", "1", "2", "3"],
+        "correctAnswer": "1"
+      },
+      {
+        "id": 27,
+        "questionText": "two",
+        "questionType": "Multiple Choice",
+        "options": ["3", "1", "2", "4"],
+        "correctAnswer": "2"
+      },
+      {
+        "id": 28,
+        "questionText": "three",
+        "questionType": "Multiple Choice",
+        "options": ["3", "2", "1", "4"],
+        "correctAnswer": "3"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "course": 1,
+    "examTitle": "CS400",
+    "startDate": "2020-10-12T10:00:00-05:00",
+    "endDate": "2020-10-14T10:00:00-05:00",
+    "duaration": "120",
+    "questions": [
+      {
+        "id": 29,
+        "questionText": "joijiojio",
+        "questionType": "Multiple Choice",
+        "options": ["ijioj", "iojoij", "oijioji", "ojiojio"],
+        "correctAnswer": "iojoij"
+      },
+      {
+        "id": 30,
+        "questionText": "oijoijioj",
+        "questionType": "Multiple Choice",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": 31,
+        "questionText": "njljkj",
+        "questionType": "Long Answer",
+        "options": [],
+        "correctAnswer": ""
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "course": 1,
+    "examTitle": "CS400",
+    "startDate": "2020-10-12T09:00:00-05:00",
+    "endDate": "2020-10-14T09:00:00-05:00",
+    "duaration": "120",
+    "questions": [
+      {
+        "id": 32,
+        "questionText": "joijiojio",
+        "questionType": "Multiple Choice",
+        "options": ["ijioj", "iojoij", "oijioji", "ojiojio"],
+        "correctAnswer": "iojoij"
+      },
+      {
+        "id": 33,
+        "questionText": "oijoijioj",
+        "questionType": "Multiple Choice",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": 34,
+        "questionText": "njljkj",
+        "questionType": "Long Answer",
+        "options": [],
+        "correctAnswer": ""
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "course": 1,
+    "examTitle": "CS400",
+    "startDate": "2020-09-12T09:00:00-05:00",
+    "endDate": "2020-09-14T09:00:00-05:00",
+    "duaration": "120",
+    "questions": [
+      {
+        "id": 35,
+        "questionText": "joijiojio",
+        "questionType": "Multiple Choice",
+        "options": ["ijioj", "iojoij", "oijioji", "ojiojio"],
+        "correctAnswer": "iojoij"
+      },
+      {
+        "id": 36,
+        "questionText": "oijoijioj",
+        "questionType": "Multiple Choice",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": 37,
+        "questionText": "njljkj",
+        "questionType": "Long Answer",
+        "options": [],
+        "correctAnswer": ""
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "course": 1,
+    "examTitle": "CS400",
+    "startDate": "2020-09-02T09:00:00-05:00",
+    "endDate": "2020-09-04T09:00:00-05:00",
+    "duaration": "120",
+    "questions": [
+      {
+        "id": 38,
+        "questionText": "joijiojio",
+        "questionType": "Multiple Choice",
+        "options": ["ijioj", "iojoij", "oijioji", "ojiojio"],
+        "correctAnswer": "iojoij"
+      },
+      {
+        "id": 39,
+        "questionText": "oijoijioj",
+        "questionType": "Multiple Choice",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": 40,
+        "questionText": "njljkj",
+        "questionType": "Long Answer",
+        "options": [],
+        "correctAnswer": ""
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "course": 1,
+    "examTitle": "CS400",
+    "startDate": "2020-09-02T09:01:00-05:00",
+    "endDate": "2020-09-04T09:01:00-05:00",
+    "duaration": "120",
+    "questions": [
+      {
+        "id": 41,
+        "questionText": "joijiojio",
+        "questionType": "Multiple Choice",
+        "options": ["ijioj", "iojoij", "oijioji", "ojiojio"],
+        "correctAnswer": "iojoij"
+      },
+      {
+        "id": 42,
+        "questionText": "oijoijioj",
+        "questionType": "Multiple Choice",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": 43,
+        "questionText": "njljkj",
+        "questionType": "Long Answer",
+        "options": [],
+        "correctAnswer": ""
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "course": 1,
+    "examTitle": "CS400",
+    "startDate": "2020-08-23T18:00:00-05:00",
+    "endDate": "2020-11-25T23:59:00-05:00",
+    "duaration": "120",
+    "questions": [
+      {
+        "id": 44,
+        "questionText": "klmklmklm",
+        "questionType": "Long Answer",
+        "options": [],
+        "correctAnswer": ""
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "course": 1,
+    "examTitle": "CS400",
+    "startDate": "2020-09-02T09:01:00-05:00",
+    "endDate": "2020-09-04T09:01:00-05:00",
+    "duaration": "120",
+    "questions": [
+      {
+        "id": 45,
+        "questionText": "joijiojio",
+        "questionType": "Multiple Choice",
+        "options": ["ijioj", "iojoij", "oijioji", "ojiojio"],
+        "correctAnswer": "iojoij"
+      },
+      {
+        "id": 46,
+        "questionText": "oijoijioj",
+        "questionType": "Multiple Choice",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": 47,
+        "questionText": "njljkj",
+        "questionType": "Long Answer",
+        "options": [],
+        "correctAnswer": ""
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "course": 1,
+    "examTitle": "CS400",
+    "startDate": "2020-09-02T09:01:00-05:00",
+    "endDate": "2020-09-04T09:01:00-05:00",
+    "duaration": "120",
+    "questions": [
+      {
+        "id": 48,
+        "questionText": "joijiojio",
+        "questionType": "Multiple Choice",
+        "options": ["ijioj", "iojoij", "oijioji", "ojiojio"],
+        "correctAnswer": "iojoij"
+      },
+      {
+        "id": 49,
+        "questionText": "oijoijioj",
+        "questionType": "Multiple Choice",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": 50,
+        "questionText": "njljkj",
+        "questionType": "Long Answer",
+        "options": [],
+        "correctAnswer": ""
+      }
+    ]
+  }
+]
