@@ -38,11 +38,11 @@ class Example extends Component {
 
 |   Prop Name         |  Description                  | Default Value |  Example Value  |
 | ------------------- | ----------------------------- | ------------- | --------------- |
-| containerStyle      | inline styling for container  |      N/A      | {height: "50%"} |
-| containerClassName  | css className for container   |      N/A      |  css Classname, or css module |
-|     agenda          | Array of events to be displayed. <br>  |    []       |  [{ <br>&nbsp; title: "Title", <br>&nbsp;startDate: {day: 1, month: 2, year: 2020}, <br>&nbsp;endDate: {day: 5, month: 2,year: 2020}<br>}, { <br>&nbsp; title: "Title 2", <br>&nbsp;startDate: {day: 23, month: 5, year: 2020}<br>}] 
+| containerStyle      | inline styling for container  |      N/A      | ````{height: "50%"}``` |
+| containerClassName  | css className for container   |      N/A      |  css className, or css module |
+|     agenda          | Array of events to be displayed. <br>  |    []       |  ```[{ <br> title: "Title", <br>startDate: {day: 1, month: 2, year: 2020}, <br>endDate: {day: 5, month: 2,year: 2020}<br>}, { <br> title: "Title 2", <br>startDate: {day: 23, month: 5, year: 2020}<br>}] ```
 |
-|    currentDate      | Date displayed on the calendar |  Today       |  new Date(2004, 0, 6) |
+|    currentDate      | Date displayed on the calendar |  Today       |  ```new Date(2004, 0, 6)``` |
 
 ## License
 
