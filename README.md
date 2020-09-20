@@ -13,6 +13,9 @@ npm install --save react-agenda-calendar
 yarn add react-agenda-calendar
 ```
 
+## Example Images
+Images can be found [here](https://github.com/Jhamali/react-schedule-calendar/tree/master/src/assets)
+
 ## Usage
 
 ```jsx
