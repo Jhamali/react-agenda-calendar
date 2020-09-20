@@ -40,8 +40,7 @@ class Example extends Component {
 | ------------------- | ----------------------------- | ------------- | --------------- |
 | containerStyle      | inline styling for container  |      N/A      | ```{height: "50%"}``` |
 | containerClassName  | css className for container   |      N/A      |  css className, or css module |
-|     agenda          | Array of events to be displayed.   |    []       |  ```[{  title: "Title", startDate: {day: 1, month: 2, year: 2020}, endDate: {day: 5, month: 2,year: 2020}}, {  title: "Title 2", startDate: {day: 23, month: 5, year: 2020}}] ```
-|
+|     agenda          | Array of events to be displayed.   |    []       |  ```[{  title: "Title", startDate: {day: 1, month: 2, year: 2020}, endDate: {day: 5, month: 2,year: 2020}}, {  title: "Title 2", startDate: {day: 23, month: 5, year: 2020}}] ```|
 |    currentDate      | Date displayed on the calendar |  Today       |  ```new Date(2004, 0, 6)``` |
 
 ## License
