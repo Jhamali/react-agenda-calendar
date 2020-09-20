@@ -6,7 +6,7 @@ import ButtonsRows from './components/Buttons/ButtonRows'
 import Agenda from './components/Agenda/Agenda'
 import styles from './styles.module.css'
 
-const ScheduleCalendar = ({ day, month, year, agenda }) => {
+const ScheduleCalendar = ({ currentDate, agenda, containerStyle, containerClassName }) => {
 
   const [showAgenda, setShowAgenda] = useState(false)
   const [date, setDate] = useState({day:new Date().getDate(), month: new Date().getMonth(), year: new Date().getFullYear()})
@@ -26,11 +26,14 @@ const ScheduleCalendar = ({ day, month, year, agenda }) => {
   }, [showAgenda])
 
   useEffect(() => {
-    setDate({day:day, month: month-1, year: year})
+    
+    if (!isNaN(currentDate.getTime()))    
+      setDate({day:currentDate.getDate(), month: currentDate.getMonth(), year: currentDate.getFullYear()})
+    
     return () => {
       
     }
-  }, [])
+  }, [currentDate])
 
   const previousMonth = () =>{
     if(date.month===0){
@@ -56,7 +59,7 @@ const ScheduleCalendar = ({ day, month, year, agenda }) => {
   }
 
   return (
-  <div className={styles.rscMainContainer}>
+  <div style={containerStyle} className={containerClassName? containerClassName : styles.rscMainContainer}>
     <div className={styles.rscComponentContainer}>
       <div className={styles.rscCalenderContainer}>    
 
@@ -78,17 +81,15 @@ const ScheduleCalendar = ({ day, month, year, agenda }) => {
 }
 
 ScheduleCalendar.propTypes = {
-  month: PropTypes.number,
-  year: PropTypes.number,
-  day: PropTypes.number,
-  agenda: PropTypes.array
+  agenda: PropTypes.array,
+  containerStyle: PropTypes.object,
+  currentDate: PropTypes.instanceOf(new Date())
 };
 
 ScheduleCalendar.defaultProps = {
-  month: new Date().getMonth(),
-  year: new Date().getFullYear(),
-  day: 1,
-  agenda: []
+  agenda: [],
+  containerStyle: {},
+  currentDate: new Date()
 };
 
 export default ScheduleCalendar

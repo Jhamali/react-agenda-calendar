@@ -29,7 +29,9 @@ const App = () => {
     return newtask
   }
   
-  return <ScheduleCalender agenda={agenda} day={6} month={1} year={2004} />
+  return <div style={{height:"100vh"}}>
+    <div style={{width:"100%", height:"50px", borderBottom: "solid black 1px"}}>div</div>
+    <ScheduleCalender containerStyle={{height: "calc(100% - 51x)"}} containerClassName={styles.calenderContainer} agenda={agenda} currentDate={new Date(2004, 0, 6)} /></div>
 }
 
 export default App

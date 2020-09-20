@@ -18,8 +18,8 @@ yarn add react-agenda-calendar
 ```jsx
 import React, { Component } from 'react'
 
-import ScheduleCalender from 'react-schedule-calendar'
-import 'react-schedule-calendar/dist/index.css'
+import AgendaCalender from 'react-agenda-calendar'
+import 'react-agenda-calendar/dist/index.css'
 
 class Example extends Component {
   const agenda = [
@@ -31,10 +31,18 @@ class Example extends Component {
   ]
 
   render() {
-    return <ScheduleCalender agenda={agenda} day={6} month={1} year={2004} />
+    return <AgendaCalender containerStyle={{height: "calc(100% - 51x)"}} containerClassName={styles.calenderContainer} agenda={agenda} currentDate={new Date(2004, 0, 6)} /></div>
   }
 }
 ```
+
+|   Prop Name         |  Description                  | Default Value |  Example Value  |
+| ------------------- | ----------------------------- | ------------- | --------------- |
+| containerStyle      | inline styling for container  |      N/A      | {height: "50%"} |
+| containerClassName  | css className for container   |      N/A      |  css Classname, or css module |
+|     agenda          | Array of events to be displayed. <br>  |    []       |  [{ <br>&nbsp; title: "Title", <br>&nbsp;startDate: {day: 1, month: 2, year: 2020}, <br>&nbsp;endDate: {day: 5, month: 2,year: 2020}<br>}, { <br>&nbsp; title: "Title 2", <br>&nbsp;startDate: {day: 23, month: 5, year: 2020}<br>}] 
+|
+|    currentDate      | Date displayed on the calendar |  Today       |  new Date(2004, 0, 6) |
 
 ## License
 
